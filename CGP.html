@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="csscgp.css">
+    <title>COLOR GAME</title>
+</head>
+<body>
+    <div id="defColor" class="jumbotron jumbotron-fluid py-0 mb-0 "  >
+        <div class="container m-0 mx-auto text-center">
+            <h3 class ="mb-0"> THE GREAT</h3>
+            <h1 class="display-4 font-weight-bold mb-0"> <span class="colorref">RGB (175, 0, 0)</span> </h1>
+            <h3 class = "mb-0"> GUESSING GAME</h3>
+            <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+        </div>
+    </div>
+
+    <div class="container pb-0 GameChoice">
+        <div class="row ">
+          <div class="col text-center px-0 "><button class="NewColor m-0 font-weight-bold">NEW COLOR</button></div>
+          <div class="col text-center px-0 "><p class="m-0 evaluation"></p></div>
+          <div class="col text-center px-0 ">
+                <button id="easyb" class="m-0 font-weight-bold easybutton NewColor ">EASY</button>
+                <button id="hardb" class="m-0 font-weight-bold hardbutton NewColor selected ">HARD</button>
+                
+            </div>
+        </div>
+    </div>  
+
+    <div class="container">
+        <div class="row pt-2 mt-2 d-flex justify-content-center" style="height: 175px">
+            <div class="col py-3 px-3 px-4-lg colorbox"><button id="box1" class="btn btn-lg btn-block h-100 p-0 colorboxeach box1" >  </button></div>
+            <div class="col py-3 px-3 px-4-lg colorbox"><button class="btn btn-lg btn-block h-100 p-0 colorboxeach box2">  </button></div>
+            <div class="col py-3 px-3 px-4-lg colorbox"><button class="btn btn-lg btn-block h-100 p-0 colorboxeach box3">  </button></div>
+        </div>
+
+        <div class="row pt-0 mt-0 d-flex justify-content-center hardchoice" style="height: 175px">
+            <div class="col p-3 colorbox"><button class="btn btn-lg btn-block h-100 p-0 colorboxeach box4" >  </button></div>
+            <div class="col p-3 colorbox"><button class="btn btn-lg btn-block h-100 p-0 colorboxeach box5">  </button></div>
+            <div class="col p-3 colorbox"><button class="btn btn-lg btn-block h-100 p-0 colorboxeach box6">  </button></div>
+        </div>
+    </div>
+
+    <!-- <div class="row pt-0 mt-0 d-flex justify-content-center hardchoice" style="height: 175px">
+        <div class="col p-3 colorbox"><button class="btn btn-lg btn-block h-100 p-0 colorboxeach boxref" > ref </button></div>
+    </div> -->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="jscgp.js"></script>
+
+</body>
+</html>
